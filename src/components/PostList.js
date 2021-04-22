@@ -13,4 +13,7 @@ class PostList extends React.Component {
     }
 };
 
+//to get the data from the Redux side to our React side we define mapStateToPorps.
+
+
 export default connect(null, { fetchPosts })(PostList);
